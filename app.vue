@@ -1,14 +1,14 @@
 <template>
-  <div>
-    <NuxtWelcome />
-
-    <div class="div"></div>
-  </div>
+  <NuxtLayout>
+    <router-view />
+  </NuxtLayout>
 </template>
 
 <style lang="scss">
-.div {
-  width: 200px;
-  height: 200px;
+@import "assets/styles/_colors.scss";
+@import "assets/styles/_default.scss";
+
+html {
+  // background-color: $dark-gray;
 }
 </style>

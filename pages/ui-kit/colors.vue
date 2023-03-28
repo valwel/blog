@@ -41,8 +41,6 @@ function copyToClipboard(color: string): void {
 
 
 <style lang="scss" scoped>
-@import "assets/styles/_colors.scss";
-
 .colors-list {
   list-style: none;
 }
